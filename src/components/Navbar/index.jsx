@@ -1,3 +1,4 @@
+import DayNightButton from './DayNightButton';
 import './style.scss';
 
 const Navbar = () => {
@@ -8,7 +9,7 @@ const Navbar = () => {
       <span className="Navbar__link">Accueil</span>
       <span className="Navbar__link">L&apos;agence</span>
       <span className="Navbar__link">Projets</span>
-      <button className="Navbar__button" type="button">Jour/Nuit</button>
+      <DayNightButton />
     </nav>
   );
 };

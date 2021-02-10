@@ -1,0 +1,22 @@
+$light-bg: #FFFFFF;
+$light-text: #000000;
+$light-color-primary: #cc0000;
+$dark-bg: #270f35;
+$dark-text: #FFFFFF;
+$dark-color-primary: #cc0000;
+
+.light {
+  --background-color: #FFFFFF;
+  --color-text: #000000;
+  --color-primary: #cc0000;
+}
+
+.dark {
+  --background-color: #270f35;
+  --color-text: #FFFFFF;
+  --color-primary: #cc0000;
+}
+
+@mixin transition {
+  transition: 0.3s;
+}

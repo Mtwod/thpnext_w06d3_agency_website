@@ -1,0 +1,13 @@
+@import 'variables.scss';
+
+.DayNightButton {
+  border-style: none;
+  background-color: var(--background-color);
+  outline-style: none;
+  @include transition();
+
+  &__image {
+    height: 40px;
+    width: 40px;
+  }
+}

@@ -4,6 +4,7 @@
   border-style: none;
   background-color: var(--background-color);
   outline-style: none;
+  cursor: pointer;
   @include transition();
 
   &__image {

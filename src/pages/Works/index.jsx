@@ -1,7 +1,6 @@
+import ClientListElement from 'components/ClientListElement';
 import StudyCase from 'components/StudyCase';
-import studyCases from 'data/studyCases';
 import {
-  Link,
   Switch,
   Route,
 } from 'react-router-dom';
@@ -15,13 +14,7 @@ const Works = () => {
     <div className="Works">
       <h3 className="Works__title">{title}</h3>
       <p className="Works__description">{description}</p>
-      <ul className="Works__list">
-        { studyCases.map((studyCase) => (
-          <li className="Works__list__element">
-            <Link to={`/works/${studyCase.slug}`} key={studyCase.slug}>{studyCase.title}</Link>
-          </li>
-        )) }
-      </ul>
+      <ClientListElement />
       <Switch>
         <Route path="/works/:studyCaseSlug">
           <StudyCase />

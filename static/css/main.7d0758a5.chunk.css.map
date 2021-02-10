@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://src/reset.scss","webpack://src/style.scss"],"names":[],"mappings":"AAAA,EACE,qBAAA,CACA,QAAA,CACA,SAAA,CCDF,KACE,YAAA","file":"main.7d0758a5.chunk.css","sourcesContent":["* {\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0;\n}\n","@import './reset.scss';\n\n.App {\n  padding: 25px;\n}\n"]}

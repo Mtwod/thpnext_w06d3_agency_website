@@ -15,8 +15,6 @@
   }
 
   &__link {
-    text-decoration: none;
-    color: var(--color-text);
-    outline-style: none;
+    @include resetLink();
   }
 }

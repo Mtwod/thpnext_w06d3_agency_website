@@ -1,10 +1,13 @@
+@import 'variables.scss';
+
 .Works {
 
   &__list {
-    margin-left: 100px;
+    margin-left: 20px;
     list-style: none;
 
     &__element {
+      @include resetLink();
       margin: 10px 0;
     }
   }

@@ -1,0 +1,2 @@
+(this["webpackJsonpagency-website"]=this["webpackJsonpagency-website"]||[]).push([[0],{10:function(e,t,c){"use strict";c.r(t);var n=c(1),s=c.n(n),r=c(3),i=c.n(r),o=(c(8),c(0)),a=function(){return Object(o.jsxs)("div",{className:"App",children:[Object(o.jsx)("h1",{children:"Hello World"}),Object(o.jsx)("p",{children:"This is a starter for React app, place your components here!"})]})};i.a.render(Object(o.jsx)(s.a.StrictMode,{children:Object(o.jsx)(a,{})}),document.getElementById("root"))},8:function(e,t,c){}},[[10,1,2]]]);
+//# sourceMappingURL=main.50308149.chunk.js.map

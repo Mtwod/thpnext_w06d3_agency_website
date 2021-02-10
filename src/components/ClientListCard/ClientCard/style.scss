@@ -1,0 +1,17 @@
+.ClientCard {
+  margin-top: 20px;
+  width: 18rem;
+  min-height: 10rem;
+  padding: 15px;
+  border: 1px solid #00000000;
+  box-shadow: 0 0 5px var(--color-secondary);
+  border-radius: 10px;
+
+  &:hover {
+    border: 1px solid var(--color-secondary);
+  }
+
+  &__author {
+    margin: 0;
+  }
+}

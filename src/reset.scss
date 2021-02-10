@@ -3,3 +3,9 @@
   margin: 0;
   padding: 0;
 }
+
+@mixin resetLink {
+  text-decoration: none;
+  color: var(--color-text);
+  outline-style: none;
+}

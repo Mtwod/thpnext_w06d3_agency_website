@@ -1,4 +1,5 @@
-import ClientListElement from 'components/ClientListElement';
+import ClientListCard from 'components/ClientListCard';
+// import ClientListElement from 'components/ClientListElement';
 import StudyCase from 'components/StudyCase';
 import {
   Switch,
@@ -14,7 +15,7 @@ const Works = () => {
     <div className="Works">
       <h3 className="Works__title">{title}</h3>
       <p className="Works__description">{description}</p>
-      <ClientListElement />
+      <ClientListCard />
       <Switch>
         <Route path="/works/:studyCaseSlug">
           <StudyCase />

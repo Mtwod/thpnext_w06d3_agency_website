@@ -9,20 +9,16 @@ $dark-color-primary: #cc0000;
   --background-color: #FFFFFF;
   --color-text: #000000;
   --color-primary: #cc0000;
+  --color-secondary: #79d3df;
 }
 
 .dark {
   --background-color: #270f35;
   --color-text: #FFFFFF;
   --color-primary: #660000;
+  --color-secondary: #10c5dd;
 }
 
 @mixin transition {
   transition: 0.3s;
-}
-
-@mixin resetLink {
-  text-decoration: none;
-  color: var(--color-text);
-  outline-style: none;
 }

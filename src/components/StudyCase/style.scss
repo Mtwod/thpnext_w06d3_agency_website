@@ -1,5 +1,7 @@
 .StudyCase {
   margin: 50px;
   padding: 10px;
-  border: 1px solid var(--color-primary);
+  border-radius: 10px;
+  box-shadow: 0 0 10px var(--color-study-case);
+  background-color: var(--color-study-case);
 }

@@ -10,6 +10,7 @@ $dark-color-primary: #cc0000;
   --color-text: #000000;
   --color-primary: #cc0000;
   --color-secondary: #79d3df;
+  --color-study-case: #270f3508;
 }
 
 .dark {
@@ -17,6 +18,7 @@ $dark-color-primary: #cc0000;
   --color-text: #FFFFFF;
   --color-primary: #660000;
   --color-secondary: #10c5dd;
+  --color-study-case: #FFFFFF30;
 }
 
 @mixin transition {

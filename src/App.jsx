@@ -33,11 +33,14 @@ const App = () => {
               <Route path="/" exact>
                 <Home />
               </Route>
-              <Route path="/works" exact>
+              <Route path="/works">
                 <Works />
               </Route>
               <Route path="/about" exact>
                 <About />
+              </Route>
+              <Route>
+                Page introuvable
               </Route>
             </Switch>
           </main>

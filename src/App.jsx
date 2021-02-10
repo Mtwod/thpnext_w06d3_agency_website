@@ -1,11 +1,16 @@
 import 'assets/fonts/fonts.scss';
 import './style.scss';
 import Navbar from 'components/Navbar';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
+import Config from 'config';
 import DayNightContext from './DayNightContext';
 
 const App = () => {
-  const [theme, setTheme] = useState('light');
+  const [theme, setTheme] = useState(localStorage.getItem(Config.STORAGE_KEY) || 'light');
+
+  useEffect(() => {
+    localStorage.setItem(Config.STORAGE_KEY, theme);
+  }, [theme]);
 
   return (
     <DayNightContext.Provider value={{

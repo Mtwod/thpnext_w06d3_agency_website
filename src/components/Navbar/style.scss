@@ -1,12 +1,22 @@
+@import 'variables.scss';
+
 .Navbar {
   display: flex;
   justify-content: space-around;
   align-items: center;
   height: 80px;
+  border-bottom: 1px solid var(--color-primary);
+  @include transition();
 
   &__title {
     width: 50%;
     font-size: 2rem;
     font-weight: bold;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: var(--color-text);
+    outline-style: none;
   }
 }

@@ -1,8 +1,12 @@
+import { Switch, Route, BrowserRouter as Router } from 'react-router-dom';
 import 'assets/fonts/fonts.scss';
 import './style.scss';
 import Navbar from 'components/Navbar';
 import { useEffect, useState } from 'react';
 import Config from 'config';
+import Home from 'pages/Home';
+import Works from 'pages/Works';
+import About from 'pages/About';
 import DayNightContext from './DayNightContext';
 
 const App = () => {
@@ -22,9 +26,22 @@ const App = () => {
     }}
     >
       <div className={`App ${theme}`}>
-        <Navbar />
-        <h1>Hello World</h1>
-        <p>This is a starter for React app, place your components here!</p>
+        <Router>
+          <Navbar />
+          <main>
+            <Switch>
+              <Route path="/" exact>
+                <Home />
+              </Route>
+              <Route path="/works" exact>
+                <Works />
+              </Route>
+              <Route path="/about" exact>
+                <About />
+              </Route>
+            </Switch>
+          </main>
+        </Router>
       </div>
     </DayNightContext.Provider>
   );

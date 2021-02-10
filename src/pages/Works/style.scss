@@ -1,0 +1,11 @@
+.Works {
+
+  &__list {
+    margin-left: 100px;
+    list-style: none;
+
+    &__element {
+      margin: 10px 0;
+    }
+  }
+}

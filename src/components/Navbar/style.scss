@@ -1,0 +1,12 @@
+.Navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+
+  &__title {
+    width: 50%;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+}

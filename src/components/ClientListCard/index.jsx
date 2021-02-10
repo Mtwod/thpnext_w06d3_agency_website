@@ -6,7 +6,7 @@ import './style.scss';
 const ClientListCard = () => (
   <ul className="ClientListCard">
     { studyCases.map((studyCase) => (
-      <Link to={`/works/${studyCase.slug}`}><ClientCard studyCaseData={studyCase} key={studyCase.slug} /></Link>
+      <Link to={`/works/${studyCase.slug}`} key={studyCase.slug}><ClientCard studyCaseData={studyCase} /></Link>
     )) }
   </ul>
 );

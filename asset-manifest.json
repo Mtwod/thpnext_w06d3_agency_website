@@ -1,21 +1,25 @@
 {
   "files": {
-    "main.css": "/thpnext_w06d3_agency_website/static/css/main.8dfb136b.chunk.css",
-    "main.js": "/thpnext_w06d3_agency_website/static/js/main.62d57283.chunk.js",
-    "main.js.map": "/thpnext_w06d3_agency_website/static/js/main.62d57283.chunk.js.map",
+    "main.css": "/thpnext_w06d3_agency_website/static/css/main.2b92d27d.chunk.css",
+    "main.js": "/thpnext_w06d3_agency_website/static/js/main.8c4e81bd.chunk.js",
+    "main.js.map": "/thpnext_w06d3_agency_website/static/js/main.8c4e81bd.chunk.js.map",
     "runtime-main.js": "/thpnext_w06d3_agency_website/static/js/runtime-main.ba7c335d.js",
     "runtime-main.js.map": "/thpnext_w06d3_agency_website/static/js/runtime-main.ba7c335d.js.map",
-    "static/js/2.b7e2c4d3.chunk.js": "/thpnext_w06d3_agency_website/static/js/2.b7e2c4d3.chunk.js",
-    "static/js/2.b7e2c4d3.chunk.js.map": "/thpnext_w06d3_agency_website/static/js/2.b7e2c4d3.chunk.js.map",
+    "static/css/2.30fbed10.chunk.css": "/thpnext_w06d3_agency_website/static/css/2.30fbed10.chunk.css",
+    "static/js/2.f78ff94b.chunk.js": "/thpnext_w06d3_agency_website/static/js/2.f78ff94b.chunk.js",
+    "static/js/2.f78ff94b.chunk.js.map": "/thpnext_w06d3_agency_website/static/js/2.f78ff94b.chunk.js.map",
     "index.html": "/thpnext_w06d3_agency_website/index.html",
-    "static/css/main.8dfb136b.chunk.css.map": "/thpnext_w06d3_agency_website/static/css/main.8dfb136b.chunk.css.map",
-    "static/js/2.b7e2c4d3.chunk.js.LICENSE.txt": "/thpnext_w06d3_agency_website/static/js/2.b7e2c4d3.chunk.js.LICENSE.txt",
+    "static/css/2.30fbed10.chunk.css.map": "/thpnext_w06d3_agency_website/static/css/2.30fbed10.chunk.css.map",
+    "static/css/main.2b92d27d.chunk.css.map": "/thpnext_w06d3_agency_website/static/css/main.2b92d27d.chunk.css.map",
+    "static/js/2.f78ff94b.chunk.js.LICENSE.txt": "/thpnext_w06d3_agency_website/static/js/2.f78ff94b.chunk.js.LICENSE.txt",
+    "static/media/grid-icon.0b606d7f.png": "/thpnext_w06d3_agency_website/static/media/grid-icon.0b606d7f.png",
     "static/media/moon-logo.7c1bd03b.png": "/thpnext_w06d3_agency_website/static/media/moon-logo.7c1bd03b.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ba7c335d.js",
-    "static/js/2.b7e2c4d3.chunk.js",
-    "static/css/main.8dfb136b.chunk.css",
-    "static/js/main.62d57283.chunk.js"
+    "static/css/2.30fbed10.chunk.css",
+    "static/js/2.f78ff94b.chunk.js",
+    "static/css/main.2b92d27d.chunk.css",
+    "static/js/main.8c4e81bd.chunk.js"
   ]
 }

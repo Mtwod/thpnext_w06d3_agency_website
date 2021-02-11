@@ -2,11 +2,11 @@
 @import './variables.scss';
 
 .App {
-  padding: 0 25px;
+  padding: 0 25px 50px;
   font-family: 'Quicksand', sans-serif;
   background-color: var(--background-color);
   color: var(--color-text);
-  height: 100vh;
+  min-height: 100vh;
   @include transition();
 }
 

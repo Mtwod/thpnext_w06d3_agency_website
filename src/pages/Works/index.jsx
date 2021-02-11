@@ -2,18 +2,23 @@ import ClientListCard from 'components/ClientListCard';
 import ClientListElement from 'components/ClientListElement';
 import ListGridButton from 'components/ListGridButton';
 import StudyCase from 'components/StudyCase';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import {
   Switch,
   Route,
 } from 'react-router-dom';
+import Config from 'config';
 import ListGridContext from './ListGridContext';
 import './style.scss';
 
 const Works = () => {
   const title = 'Au fil des années, nous avons pu accompagner les meilleurs.';
   const description = 'Découvrez pas à pas comment nous avons été présent pour lancer vos marques préférées.';
-  const [displayMode, setDisplayMode] = useState('list');
+  const [displayMode, setDisplayMode] = useState(localStorage.getItem(Config.STORAGE_KEY_LISTGRID) || 'list');
+
+  useEffect(() => {
+    localStorage.setItem(Config.STORAGE_KEY_LISTGRID, displayMode);
+  }, [displayMode]);
 
   return (
     <ListGridContext.Provider value={{

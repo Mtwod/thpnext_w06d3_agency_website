@@ -10,10 +10,10 @@ import About from 'pages/About';
 import DayNightContext from './DayNightContext';
 
 const App = () => {
-  const [theme, setTheme] = useState(localStorage.getItem(Config.STORAGE_KEY) || 'light');
+  const [theme, setTheme] = useState(localStorage.getItem(Config.STORAGE_KEY_THEME) || 'light');
 
   useEffect(() => {
-    localStorage.setItem(Config.STORAGE_KEY, theme);
+    localStorage.setItem(Config.STORAGE_KEY_THEME, theme);
   }, [theme]);
 
   return (

@@ -50,4 +50,4 @@ The components must be function components, and react-router-dom will be used fo
 
 ### Authors
 
-@Mtwod, @colinebrlt
+[@Mtwod](https://github.com/Mtwod), [@colinebrlt](https://github.com/colinebrlt)

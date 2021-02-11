@@ -10,7 +10,13 @@ import About from 'pages/About';
 import DayNightContext from './DayNightContext';
 
 const App = () => {
-  const [theme, setTheme] = useState(localStorage.getItem(Config.STORAGE_KEY_THEME) || 'light');
+  const [theme, setTheme] = useState(() => {
+    const isUserThemeDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    if (isUserThemeDark) {
+      return (localStorage.getItem(Config.STORAGE_KEY_THEME) || 'dark');
+    }
+    return (localStorage.getItem(Config.STORAGE_KEY_THEME) || 'light');
+  });
 
   useEffect(() => {
     localStorage.setItem(Config.STORAGE_KEY_THEME, theme);

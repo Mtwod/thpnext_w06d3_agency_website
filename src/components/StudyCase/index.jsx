@@ -13,7 +13,7 @@ const StudyCase = () => {
   }, [studyCaseSlug]);
 
   return (
-    <div className="StudyCase">
+    <div className="StudyCase" data-aos="fade-right">
       {!currentStudyCase && (
         <p className="StudyCase__error">Aucune étude de cas n’a été trouvé…</p>
       )}

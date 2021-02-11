@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# Agency Website with React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was made as part of THP coding bootcamp, in order to practice contexts and routing in React. 
 
-## Available Scripts
+Project : Setting up the website of an agency
 
-In the project directory, you can run:
+## Introduction
 
-### `yarn start`
+After an interview, a development agency hired you. Well done! After a few months, they want to redo their website, and YOU are in charge of its protoype.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Your agency cares about its clients eyes, so they want a way to switch between a light and a dark theme quickly. Cool! 😎
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Requirements
 
-### `yarn test`
+### The pages
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The website must have 3 pages, all accessible via a navbar :
 
-### `yarn build`
+    Home, with the URL "/"
+    The agency, "/about"
+    Works, "/works"
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### The dark and light themes
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+There must be a button on the top-right corner of the webpage, allowing the user to switch from a light to a dark theme. The default theme will be the light one (BONUS: unless the user has his browser preferences set to dark).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The theme chosen by the user will be stored in localStorage in such a way that when the user visits the website in the future, the theme will be the one he chose during his last visit.
 
-### `yarn eject`
+### The Works page and study cases
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+There must be a dynamic routing put in place in the works page in order to access the agency's different study cases.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The routes must have the following format: "/works/clientname-study-case"
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Expected result
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+A website with React containing 3 pages ("Home", "About" and "Works").
 
-## Learn More
+The components must be function components, and react-router-dom will be used for routing.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3 other pages are exepected (Platon, Solane and Sedal), one for each study case. As you can guess, those pages are in fact one and the same component, in which will be display different data given according to the URL. So it is dynamic routing.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Bonus features
 
-### Code Splitting
+- The user can choose one of two displays of the study cases via a button: 
+    - a list: with just the name of the clients, 
+    - a grid: with both the name of the client and the title of the case study
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- The night mode will be set automatically if the user's browser preferences are set to dark. Of course if the user choses the light one instead, his choice must have the upper hand!
 
-### Analyzing the Bundle Size
+### Authors
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+@Mtwod, @colinebrlt

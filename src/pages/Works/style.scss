@@ -1,3 +1,12 @@
-// .Works {
+.Works {
 
-// }
+  &__header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    &__title {
+      width: 91vw;
+    }
+  }
+}

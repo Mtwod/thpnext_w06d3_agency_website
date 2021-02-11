@@ -1,0 +1,18 @@
+@import 'variables.scss';
+
+.ListGridButton {
+  border-style: none;
+  background-color: var(--background-color);
+  outline-style: none;
+  cursor: pointer;
+  @include transition();
+
+  &__image {
+    padding: 7px;
+    width: 40px;
+    height:40px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px var(--color-study-case);
+    background-color: var(--color-study-case);
+  }
+}

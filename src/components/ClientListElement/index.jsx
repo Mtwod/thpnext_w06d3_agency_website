@@ -5,8 +5,8 @@ import './style.scss';
 const ClientListElement = () => (
   <ul className="ClientListElement">
     { studyCases.map((studyCase) => (
-      <li className="ClientListElement__element">
-        <Link to={`/works/${studyCase.slug}`} key={studyCase.slug} className="ClientListElement__element__link">{studyCase.title}</Link>
+      <li className="ClientListElement__element" key={studyCase.slug}>
+        <Link to={`/works/${studyCase.slug}`} className="ClientListElement__element__link">{studyCase.title}</Link>
       </li>
     )) }
   </ul>
